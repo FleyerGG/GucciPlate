@@ -1,0 +1,53 @@
+type:
+  plate_1:
+    material: STONE_PRESSURE_PLATE
+    onlineModel: true
+    name: "&4plate one"
+    lore:
+      - "1"
+      - "2"
+      - "3"
+    money: 1
+    time: 1
+    message: "&a+1$"
+    message_type: actionbar
+  plate_2:
+    name: "&4plate two"
+    onlineModel: false
+    lore:
+      - "1"
+      - "2"
+      - "3"
+    money: 2
+    time: 1
+    message: "&a+2$"
+    message_type: actionbar/bossbar/chat/title
+  plate_3:
+    name: "&4plate three"
+    onlineModel: false
+    lore:
+      - "1"
+      - "2"
+      - "3"
+    money: 3
+    time: 1.5
+    message: "&a+3$"
+    message_type: actionbar/bossbar/chat/title
+
+plate_permission_command_use: "plate.admin"
+plate_no_permissions: "&cУ вас недостаточно прав!"
+plate_target_not_online: "&cДанный игрок не в сети!"
+plate_give: "&fВы выдали %plate_name% игроку %player_name%"
+
+message_welcome: "Вы зашли на специальную плиту, вам будут выдаваться %plate_money%$ каждые %plate_time% секунд."
+message_goodbye: "Вы ушли с плиты, алмазы больше не выдаются."
+message_not_online: "&cИгрок %target% не на сервере!"
+message_item_not: "&cПлита с название %item% не существует!"
+message_amount_not_itnteger: "&cПоследний аргумент а именно кол-во должно быть цифрой!"
+message_break_plate: "&cВы разрушили специальную плиту, алмазы больше не выдаются."
+message_place_plate: "&aВы установили специальную плиту."
+plate_help:
+  - "&f[GucciPlate] >>"
+  - ""
+  - "&f/plate give [НИК] [НАИМЕНОВАНИЕ ПЛИТЫ] [КОЛ-ВО]"
+  - ""

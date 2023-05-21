@@ -1,0 +1,15 @@
+name: GucciPlate
+version: '${project.version}'
+main: ru.fleyer.gucciplate.GucciPlate
+api-version: 1.16
+authors: [ Fleyer001 ]
+description: GucciPlate plugin
+depend:
+  - Vault
+commands:
+  gucciplate:
+    aliases:
+      - gp
+      - guccip
+      - plate
+    description: top command or plate
